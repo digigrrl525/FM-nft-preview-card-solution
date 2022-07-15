@@ -1,37 +1,69 @@
-## Welcome to GitHub Pages
+# Frontend Mentor - NFT preview card component solution
 
-You can use the [editor on GitHub](https://github.com/digigrrl525/FM-nft-preview-card-solution/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Table of contents
 
-### Markdown
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Overview
 
-```markdown
-Syntax highlighted code block
+### The challenge
 
-# Header 1
-## Header 2
-### Header 3
+Users should be able to:
 
-- Bulleted
-- List
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
-1. Numbered
-2. List
+### Screenshot
 
-**Bold** and _Italic_ and `Code` text
+![](screenshots/Desktop.png)
+![](screenshots/Mobile.png)
+![](screenshots/Desktop-img-hover.png)
 
-[Link](url) and ![Image](src)
-```
+### Links
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+- Solution URL: https://github.com/digigrrl525/FM-nft-preview-card-solution
+- Live Site URL: https://digigrrl525.github.io/FM-nft-preview-card-solution/
 
-### Jekyll Themes
+## My process
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/digigrrl525/FM-nft-preview-card-solution/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+I started with the html and css. Then I started in on the hover states which meant I had to re-work a lot of what I had written because I didn't have the correct html flow. 
+Of course, then I had to change a lot of my css to get the overlay to stay on the product image when responding to responsive changes.
 
-### Support or Contact
+This project took longer than I expected because I had to research how to create the hover overlay, but I learned a lot and I am proud of the result.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+
+### What I learned
+
+I learned how to create an overlay to show on top of an image on hover. In the past, I have created hover states that replace elements not overlay them.
+
+
+### Continued development
+
+I want to learn more about CSS animations.
+
+
+## Author
+
+- Frontend Mentor - [@digigrrl525](https://www.frontendmentor.io/profile/digigrrl525)
+
+
+## Acknowledgments
+
+Stack Overflow, Youtube, and CSS tricks!
+
