@@ -1,0 +1,170 @@
+body {
+	background-color: hsl(217, 54%, 11%);
+	font-family: 'Outfit', sans-serif;
+}
+
+hr {
+	border: 0.5px solid hsl(215, 32%, 27%);
+    position: relative;
+    margin: 20px;
+}
+
+p {
+	font-size: 1.125rem;
+	margin: 20px;
+	text-align: left;
+	width: 50%;
+}
+
+span {
+	color: hsl(215, 51%, 70%);
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+.main {
+	background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    margin: 100px auto;
+    height: 575px;
+    min-width: 325px;
+    width: 16%;
+}
+
+.product-wrapper {
+	position: absolute;
+    width: 16%;
+    top: 120px;
+}
+
+.product-image {
+	display: block;
+	border-radius: 20px;
+    margin: 0 20px 0 20px;
+    min-width: 285px;
+    width: 87%;
+}
+
+.hover-content {
+	position: absolute;
+    left: 120px;
+    top: 120px;
+}
+
+.overlay {
+    background-color: hsla(178, 100%, 50%, .5);
+    width: 285px;
+    height: 285px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 0.5s ease;
+    /* visibility: visible;*/
+}
+
+.product-active {
+	position: absolute;
+    top: 120px;
+    left: 120px;
+}
+
+.product-wrapper:hover  .overlay{
+	opacity: 1;
+  	cursor: pointer;
+}
+
+.bottom-content {
+    position: relative;
+    top: 330px;
+}
+
+.product-name {
+	color: hsl(0, 0%, 100%);
+	font-weight: 600;
+}
+
+.product-description {
+	color: hsl(215, 51%, 70%);
+	font-weight: 300;
+	line-height: 1.5;
+	width: 87%;
+}
+
+.product-combo {
+	display: inline;
+	width: 87%;
+}
+
+img.price-image {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 4px;
+}
+
+.product-price {
+    color: hsl(178, 100%, 50%);
+    bottom: 2px;
+    display: inline;
+    font-size: 1rem;
+    font-weight: 600;
+    position: relative;
+    right: 20px;  
+}
+
+img.clock {
+    display: inline;
+    left: 56px;
+    position: relative;
+    top: 0;
+}
+
+.time-left {
+    bottom: 2px;
+    color: hsl(215, 51%, 70%);
+    font-size: 1rem;
+    left: 58px;
+    margin: 0;
+    position: relative;  
+}
+
+.creation-set {
+	padding-bottom: 30px;
+}
+
+.avatar {
+	border:  1px solid hsl(0, 0%, 100%);
+	border-radius: 100%;
+	display: inline;
+	margin-left: 20px;
+	width: 10%;
+}
+
+.created-by {
+	color: hsl(0, 0%, 100%);
+	bottom:  14px;
+	display: inline;
+	font-size: 1rem;
+	font-weight: 300;
+	position: relative;
+	right: 8px;
+}
+
+.product-name:hover, .created-by:hover {
+	color: hsl(178, 100%, 50%);
+	cursor: pointer;
+}
+
+.attribution {
+	color:  hsl(0, 0%, 100%);
+}
+/*- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)*/
+
+
+/*
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)*/
